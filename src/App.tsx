@@ -41,17 +41,17 @@ function App() {
         });        
         return;
     }
-    if (splitBalance > 0) {
-        toast.info('YOU HAVE ALREADY RECEIVED TEST TOKENS', {
-            position: "bottom-center",
-            autoClose: 1000,
-            hideProgressBar: true,
-            pauseOnHover: false,
-            draggable: true,
-            theme: "dark",
-        });
-        return;
-    }
+    // if (splitBalance > 0) {
+    //     toast.info('YOU HAVE ALREADY RECEIVED TEST TOKENS', {
+    //         position: "bottom-center",
+    //         autoClose: 1000,
+    //         hideProgressBar: true,
+    //         pauseOnHover: false,
+    //         draggable: true,
+    //         theme: "dark",
+    //     });
+    //     return;
+    // }
     SetNotification("GETTING TOKENS");
     SetStatus(Status.Loader);
     await claimHook();

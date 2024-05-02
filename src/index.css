@@ -666,9 +666,9 @@ color: #4765E2;
   margin-bottom: 48px;
   cursor: pointer;
 }
-/* .decision__play:hover {
-  background: linear-gradient(273deg, #AA1327 2.55%, #FF465E 96.84%);
-} */
+.decision__play:hover {
+  background: linear-gradient(269deg, #5CA3F8 1.8%, #4765E2 51.11%, #30159D 104.52%);
+}
 .decision__left {
   border-radius: 12px;
   background: #4765E2;
@@ -681,9 +681,9 @@ color: #4765E2;
   text-transform: uppercase;
   cursor: pointer;
 }
-/* .decision__left:hover {
-  background: linear-gradient(252deg, #B0FF09 10.61%, #05B8F1 109%);
-} */
+.decision__left:hover {
+  background: linear-gradient(269deg, #5CA3F8 1.8%, #4765E2 51.11%, #30159D 104.52%);
+}
 .decision__right {
   border-radius: 12px;
   background: linear-gradient(93deg, #AA1327 13.59%, #FF465E 87.82%);
@@ -696,9 +696,9 @@ color: #4765E2;
   text-transform: uppercase;
   cursor: pointer;
 }
-/* .decision__right:hover {
+.decision__right:hover {
   background: linear-gradient(273deg, #AA1327 2.55%, #FF465E 96.84%);
-} */
+}
 .game {
   max-width: 892px;
   width: 100%;
